@@ -1,0 +1,169 @@
+/* общее */
+body{
+	width: 100vw;
+	font-family: 'ProximaNova';
+	font-size: 2rem;
+}
+.green{
+	background-color: #028B6A;
+}
+.blue{
+	background-color: #026FAF;
+}
+.yellow{
+	background-color: #FDA510;
+}
+.red{
+	background-color: #EF591A;
+}
+.black{
+	background-color: black;
+}
+.white{
+	background-color: white;
+}
+.border{
+	border: solid medium;
+}
+.text{
+	margin-left: 2vw;
+	text-decoration: none;
+	color: black;
+}
+.mid_text{
+	margin-left: 2vw;
+	font-size: 1.5 rem;
+}
+.about:hover{
+	background-color: #028B6A;
+}
+.shop:hover{
+	background-color: #FDA510;
+}
+.workroom:hover{
+	background-color: #EF591A;
+}
+.projects:hover{
+	background-color: #026FAF;
+}
+.header > div > a {
+	width: 100%;
+}
+
+/* хэдер */
+.header{
+    display: flex;
+    justify-content: space-evenly;
+	height: 4vw;
+    margin-top: 1.5vw;
+    margin-bottom: 1vw;
+}
+.header > .border{
+	display: flex;
+	align-items: center;
+	height: 100%;
+	width: 23vw;
+}
+/* тело */
+.main{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 3vw;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	width: 95%;
+	height: 40vw;
+}
+.main > div{
+	height: 10vw;
+	/* width: 20vw; */
+}
+/* .main > div > img{
+	height: 100%;
+	width: 100%;
+} */
+.mask_w{
+	margin-top: 5vw;
+}
+.mask_g{
+	margin-top: 20vw;
+}
+.mask_y{
+	margin-top: 15vw;
+}
+/* .mask_r{
+	
+} */
+.mask_b{
+	margin-top: 25vw;
+}
+.hole{
+	/* height: 90%; */
+	height: 100%;
+	width: 100%;
+}
+.hide{
+	position: relative;
+	top: 0vw;
+	animation: show 1s linear;
+	animation-fill-mode: none;
+	height: 115%;
+	width: 100%;
+	z-index: -1;
+}
+.mask_w:hover .hide{
+	animation: hide 0.5s linear;
+	animation-fill-mode: both;
+}
+.mask_g:hover .hide{
+	animation: hide 0.5s linear;
+	animation-fill-mode: both;
+}
+.mask_y:hover .hide{
+	animation: hide 0.5s linear;
+	animation-fill-mode: both;
+}
+.mask_r:hover .hide{
+	animation: hide 0.5s linear;
+	animation-fill-mode: both;
+}
+.mask_b:hover .hide{
+	animation: hide 0.5s linear;
+	animation-fill-mode: both;
+}
+@keyframes hide{
+	0%{
+		top: 0vw;
+	}
+	100%{
+		top: 12vw;
+	}
+}
+@keyframes show{
+	0%{
+		top: 12vw;
+	}
+	100%{
+		top: 0vw;
+	}
+}
+.hole{
+	position: relative;
+	margin-top: -5vw;
+	z-index: -2;
+}
+.hole2{
+	margin-top: -5.5vw;
+	height: 144%;
+	width: 100%;
+}
+
+/* футэр */
+.footer{
+	background-color: black;
+	height: 25vw;
+	width: 100vw;
+	position: absolute;
+	display: grid;
+	z-index: +1;
+}

@@ -1,0 +1,14 @@
+/* @keyframes slide {
+	from {
+	  transform: translate3d(0, 0, 0);
+	}
+  
+	to {
+	  visibility: hidden;
+	  transform: translate3d(0, 100%, 0);
+	}
+  }
+  
+  .mask_w:hover{
+	animation: slide 1s linear ;
+  } */

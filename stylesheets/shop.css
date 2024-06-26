@@ -1,0 +1,39 @@
+.products{
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: 11fr;
+	gap: 1vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
+    margin-bottom: 1.5vw;
+	width: 98vw;
+}
+
+.column_1{
+	grid-column: span 1;
+}
+.column_3{
+	grid-column: span 3;
+}
+.column_4{
+	grid-column: span 4;
+}
+.column_5{
+	grid-column: span 5;
+}
+.column_6{
+	grid-column: span 6;
+}
+.column_7{
+	grid-column: span 7;
+}
+.column_8{
+	grid-column: span 8;
+}
+
+.card > img{
+	width: 100%;
+}
+.add{
+	margin-top: -0.5vw;
+}
