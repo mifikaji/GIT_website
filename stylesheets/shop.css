@@ -8,7 +8,6 @@
     margin-bottom: 1.5vw;
 	width: 98vw;
 }
-
 .column_1{
 	grid-column: span 1;
 }
@@ -30,10 +29,68 @@
 .column_8{
 	grid-column: span 8;
 }
+.column_11{
+	grid-column: span 11;
+}
 
+.cans_over{
+	background-image: url(../img/cans_over.png);
+	background-size: 100% auto;
+}
+.ice_over{
+	background-image: url(../img/ice_over.png);
+	background-size: 100% auto;
+}
+.buben_over{
+	background-image: url(../img/buben_over.png);
+	background-size: 100% auto;
+}
+.pencils_over{
+	background-image: url(../img/pencils_over.png);
+	background-size: 100% auto;
+}
+.notebook_over{
+	background-image: url(../img/notebook_over.png);
+	background-size: 100% auto;
+}
+.palo_over{
+	background-image: url(../img/palo_over.png);
+	background-size: 100% auto;
+}
+.bag1_over{
+	background-image: url(../img/bag1_over.png);
+	background-size: 100% auto;
+}
+.bag2_over{
+	background-image: url(../img/bag2_over.png);
+	background-size: 100% auto;
+}
+.package_over{
+	background-image: url(../img/package_over.png);
+	background-size: 100% auto;
+}
+.package2_over{
+	background-image: url(../img/package2_over.png);
+	background-size: 100% auto;
+}
 .card > img{
 	width: 100%;
 }
 .add{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	margin-top: -0.5vw;
+}
+.add > img{
+	height: 2.5vw;
+}
+
+/* .counter{
+	display: flex;
+	align-items: center;
+} */
+.counter > h1{
+	width: 100%;
+	text-align: center;
 }

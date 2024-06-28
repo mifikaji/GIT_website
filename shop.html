@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>купить</title>
 	<link rel="stylesheet" href="stylesheets/style.css">
+
+	<script src="js/shop.js"></script>	
+	<script src="js/script.js"></script>
 </head>
 <body>
 	<div class="menu">
@@ -15,65 +18,126 @@
 			<h1 class="text">купить</h1>
 		</div>
 	</div>
+	
 	<div class="products">
-		<div class="card column_6 border">
+		<div class="cart caption border column_11">
+			<h1 class="text">корзина</h1>
+		</div>
+		<div class="border caption counter column_1">
+			<h1></h1>
+		</div>
+		
+		<div class="card column_6 border" id="cans">
 			<img src="img/cans.png" alt="">
 		</div>
-		<div class="card column_6 border">
+		<div class="card column_6 border" id="ice">
 			<img src="img/ice.png" alt="">
 		</div>
 		<div class="caption border column_5">
 			<h1 class="text">шаманский напиток</h1>
 		</div>
-		<div class="add border colimn_1 yellow"></div>
+		<div class="add border column_1 yellow">
+			<img src="img/plus.svg" alt="" id="add_cans">
+		</div>
 		<div class="caption border column_5">
 			<h1 class="text">травяной лёд</h1>
 		</div>
-		<div class="add border column_1 yellow"></div>
+		<div class="add border column_1 yellow">
+			<img src="img/plus.svg" alt="" id="add_ice">
+		</div>
 
-		<div class="card column_5 border">
+		<div class="card column_5 border" id="buben">
 			<img src="img/buben.png" alt="">
 		</div>
-		<div class="card column_7 border">
+		<div class="card column_7 border" id="pencils">
 			<img src="img/pencils.png" alt="">
 		</div>
-		<div class="caption border column_4"></div>
-		<div class="add border column_1 yellow"></div>
-		<div class="caption border column_6"></div>
-		<div class="add border column_1 yellow"></div>
+		<div class="caption border column_4">
+			<h1 class="text">бубен для ритуалов</h1>
+		</div>
+		<div class="add border column_1 yellow">
+			<img src="img/plus.svg" alt="" id="add_buben">
+		</div>
+		<div class="caption border column_6">
+			<h1 class="text">набор карандашей</h1>
+		</div>
+		<div class="add border column_1 yellow">
+			<img src="img/plus.svg" alt="" id="add_pencils">
+		</div>
 
-		<div class="card column_4 border">
+		<div class="card column_4 border" id="notebook">
 			<img src="img/notebook.png" alt="">
 		</div>
-		<div class="card column_8 border">
+		<div class="card column_8 border" id="palo">
 			<img src="img/palo.png" alt="">
 		</div>
-		<div class="caption border column_3"></div>
-		<div class="add border column_1 yellow"></div>
-		<div class="caption border column_7"></div>
-		<div class="add border column_1 yellow"></div>
+		<div class="caption border column_3">
+			<h1 class="text">блокнот а5</h1>
+		</div>
+		<div class="add border column_1 yellow">
+			<img src="img/plus.svg" alt="" id="add_notebook">
+		</div>
+		<div class="caption border column_7">
+			<h1 class="text">пало санто</h1>
+		</div>
+		<div class="add border column_1 yellow">
+			<img src="img/plus.svg" alt="" id="add_palo">
+		</div>
 
-		<div class="card column_6 border">
+		<div class="card column_6 border" id="bag1">
 			<img src="img/bag1.png" alt="">
 		</div>
-		<div class="card column_6 border">
+		<div class="card column_6 border" id="bag2">
 			<img src="img/bag2.png" alt="">
 		</div>
-		<div class="caption border column_5"></div>
-		<div class="add border column_1 yellow"></div>
-		<div class="caption border column_5"></div>
-		<div class="add border column_1 yellow"></div>
+		<div class="caption border column_5">
+			<h1 class="text">сумка зелёная</h1>
+		</div>
+		<div class="add border column_1 yellow">
+			<img src="img/plus.svg" alt="" id="add_bag1">
+		</div>
+		<div class="caption border column_5">
+			<h1 class="text">сумка голубая</h1>
+		</div>
+		<div class="add border column_1 yellow">
+			<img src="img/plus.svg" alt="" id="add_bag2">
+		</div>
 
-		<div class="card column_4 border">
+		<div class="card column_4 border" id="package">
 			<img src="img/package.png" alt="">
 		</div>
-		<div class="card column_8 border">
+		<div class="card column_8 border" id="package2">
 			<img src="img/package2.png" alt="">
 		</div>
-		<div class="caption border column_3"></div>
-		<div class="add border column_1 yellow"></div>
-		<div class="caption border column_7"></div>
-		<div class="add border column_1 yellow"></div>
+		<div class="caption border column_3">
+			<h1 class="text">маска</h1>
+		</div>
+		<div class="add border column_1 yellow">
+			<img src="img/plus.svg" alt="" id="add_package">
+		</div>
+		<div class="caption border column_7">
+			<h1 class="text">шаманский набор для начинающих</h1>
+		</div>
+		<div class="add border column_1 yellow">
+			<img src="img/plus.svg" alt="" id="add_package2">
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="form">
+			<input type="text" class="" placeholder="имя">
+			<input type="text" class="" placeholder="фамилия">
+			<input type="tel" class="" placeholder="телефон">
+			<input type="email" class="" placeholder="email">
+			<div class="red button">оставить заявку</div>
+		</div>
+		<div class="message hidden">
+			<h1>
+				ваша заявка принята!
+				<br>
+				мы перезвоним вам в течение часа
+			</h1>
+		</div>
 	</div>
 </body>
 </html>

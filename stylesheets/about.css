@@ -1,0 +1,24 @@
+.book{
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: 11fr;
+	gap: 1vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
+    margin-bottom: 1.5vw;
+	width: 98vw;
+}
+
+.book > .arrow{
+	border: solid medium;
+	display: flex;
+	align-items: center;
+	height: 3vw;
+	margin-top: -0.5vw;
+	align-self: end;
+}
+
+.column_6 > img{
+	width: 100%;
+}
+

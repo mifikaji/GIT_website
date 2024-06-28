@@ -1,13 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>По душе</title>
 	<link rel="stylesheet" href="stylesheets/style.css">
 
+	
+	<script src="js/script.js"></script>
 </head>
 <body>
+	<div class="attention">
+		<h1>Пожалуйста, переверните экран!</h1>
+	</div>
 	<div class="header">
 		<div class="about border">
 			<a href="about.html" class="text">мы</a>
@@ -16,14 +21,14 @@
 			<a href="shop.html" class="text">купить</a>
 		</div>
 		<div class="workroom border">
-			<a href="workroom.html" class="text">мастерская</a>
+			<a href="404.html" class="text">мастерская</a>
 		</div>
 		<div class="projects border">
 			<a href="projects.html" class="text">проекты</a>
 		</div>
 	</div>
 	<div class="main">
-		<div class="mask_w">
+		<!-- <div class="mask_w">
 			<img src="img/mask_w.svg" alt="" class="hide">
 			<img src="img/ellipse.svg" alt="" class="hole">
 			<img src="img/ellipse3.svg" alt="" class="hole2">
@@ -47,8 +52,48 @@
 			<img src="img/mask_b.svg" alt=""class="hide">
 			<img src="img/ellipse.svg" alt="" class="hole">
 			<img src="img/ellipse3.svg" alt="" class="hole2">
+		</div> -->
+		<div class="mask_w">
+			<div class="hide white_mask"></div>
+			<div class="hole"></div>
+			<div class="hole2"></div>
+		</div>
+		<div class="mask_g">
+			<div class="hide green_mask"></div>
+			<div class="hole"></div>
+			<div class="hole2"></div>
+		</div>
+		<div class="mask_y">
+			<div class="hide yellow_mask"></div>
+			<div class="hole"></div>
+			<div class="hole2"></div>
+		</div>
+		<div class="mask_r">
+			<div class="hide red_mask"></div>
+			<div class="hole"></div>
+			<div class="hole2"></div>
+		</div>
+		<div class="mask_b">
+			<div class="hide blue_mask"></div>
+			<div class="hole"></div>
+			<div class="hole2"></div>
 		</div>
 	</div>
-	<div class="footer"></div>
+	<div class="footer">
+		<div class="form">
+			<input type="text" class="" placeholder="имя">
+			<input type="text" class="" placeholder="фамилия">
+			<input type="tel" class="" placeholder="телефон">
+			<input type="email" class="" placeholder="email">
+			<div class="red button">оставить заявку</div>
+		</div>
+		<div class="message hidden">
+			<h1>
+				ваша заявка принята!
+				<br>
+				мы перезвоним вам в течение часа
+			</h1>
+		</div>
+	</div>
 </body>
 </html>

@@ -1,0 +1,14 @@
+body{
+	display: block;
+}
+.stop{
+	width: 40vw;
+	height: 39vw;
+	margin: auto;
+	position: relative;
+	padding-left: 3vw;
+}
+.stop > img{
+	position: absolute;
+	bottom: 0px;
+}

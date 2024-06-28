@@ -1,0 +1,22 @@
+@media screen and (orientation: portrait) {
+	body{
+		background-image: none;
+		background-color: #EF591A;
+		background-size: 100vw;
+	}
+	
+	.header,
+	.main,
+	.footer{
+		display: none;
+	}
+
+	.attention{
+		display: block;
+		margin: 25vw 5vw 0vw 5vw;
+		padding-top: 15vw;
+	}
+	.attention > h1{
+		text-align: center;
+	}
+  }
