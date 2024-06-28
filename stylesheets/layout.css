@@ -208,7 +208,7 @@ a{
 	display: flex;
 	flex-direction: row;
 	background-color: black;
-	height: 25vw;
+	height: 27vw;
 	width: 100vw;
 	position: absolute;
 	z-index: +1;
