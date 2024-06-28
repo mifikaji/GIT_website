@@ -5,21 +5,12 @@ body::-webkit-scrollbar {
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: 1fr;
-	/* height: 4vw; */
 	width: 98vw;
 	padding-left: 1vw;
 	padding-right: 1vw;
     margin-top: 1.5vw;
     margin-bottom: 1.5vw;
 	gap: 1vw;
-	/* display: flex;
-    justify-content: space-evenly;
-	height: 4vw;
-	width: 98vw;
-	padding-left: 1vw;
-	padding-right: 1vw;
-    margin-top: 1.5vw;
-    margin-bottom: 1vw; */
 }
 .menu > .star{
 	display: flex;

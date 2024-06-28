@@ -85,11 +85,6 @@
 .add > img{
 	height: 2.5vw;
 }
-
-/* .counter{
-	display: flex;
-	align-items: center;
-} */
 .counter > h1{
 	width: 100%;
 	text-align: center;
