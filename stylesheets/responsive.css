@@ -30,7 +30,8 @@
 		font-size: 22px;
 	}
 	input,
-	.button{
+	.button,
+	.message >h1{
 		font-size: 16px;
 	}
 	.arrow > img{
@@ -46,7 +47,8 @@
 		font-size: 18px;
 	}
 	input,
-	.button{
+	.button,
+	.message >h1{
 		font-size: 11px;
 	}
 	.arrow > img{
